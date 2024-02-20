@@ -1,0 +1,49 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+  }
+
+  .modal-content{
+    width: 450px;
+  height: 450px;
+  background: white;
+  /* color: white; */
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  position: relative;
+  top:25%;
+  left:35%;
+  }
+
+  label{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 16px;
+    width:100%;
+    display: block;
+  }
+
+  input{
+    display: block;
+    margin: 16px auto;
+    width: 80%;
+    padding: 5px 32px;
+    border-radius: 8px;
+    
+  }
+
+  .submit-button{
+    padding: 5px 16px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+  }
