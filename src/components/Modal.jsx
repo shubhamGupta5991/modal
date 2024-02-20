@@ -42,7 +42,7 @@ const fullDate = `${todayyear}-${todaymonth}-${todayDate}`
             console.log('future date');
         }
        else if(!(email.includes('@'))){
-            displayAlert('Invalid email. Please check your email address.')
+            displayAlert('Invalid email.')
             setEmail('')
         }else{
             setDate('')
